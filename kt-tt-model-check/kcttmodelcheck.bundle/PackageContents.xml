@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="kcttmodelcheck" Description="Sample Plugin to check Revit model quality" Author="Autodesk">
+  <CompanyDetails Name="Autodesk, Inc" Url="https://github.com/JoaoMartins-Forge" Email="joao.martins@autodesk.com"/>
+  <Components Description="Check Revit Model Quality">
+    <RuntimeRequirements SeriesMax="R2023" SeriesMin="R2019" Platform="Revit" OS="Win64"/>
+    <ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Check Revit model quality" ModuleName="./Contents/kcttmodelcheck.addin" Version="1.0.0" AppName="kcttmodelcheck"/>
+  </Components>
+</ApplicationPackage>

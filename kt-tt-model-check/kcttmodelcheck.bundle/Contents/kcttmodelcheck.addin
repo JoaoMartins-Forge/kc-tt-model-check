@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="DBApplication">
+    <Name>KCTTMODELCHECK</Name>
+    <FullClassName>Autodesk.Forge.Sample.DesignAutomation.Revit.Commands</FullClassName>
+    <Text>KCTTMODELCHECK</Text>
+    <Description>Check revit model quality</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>.\kt-tt-model-check.dll</Assembly>
+    <AddInId>fcab98f6-95a4-4a1b-943c-0ee873e7f4f6</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
