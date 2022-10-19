@@ -64,7 +64,7 @@ This sample demonstrates a way to check specific information in a revit file
       }
     },
     "result": {
-      "verb": "post",
+      "verb": "put",
       "url": "URL TO UPLOAD THE RESULT",
       "Headers": {
         "Content-Type": "application/json"
